@@ -1,1 +1,1 @@
-web: gunicorn qwerty.wsgi --log-file
+web: gunicorn qwerty.wsgi --log-file -

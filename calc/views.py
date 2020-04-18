@@ -3,7 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.POST
 def home(request):
-    return render(request, 'login.html',{'name':'manjot'})
+    return render(request, 'home.html')
+def login(request):
+    return render(request, 'login.html')
+
 def disclamer(request):
     return render(request, 'disclamer.html')
 def login_sub(request):

@@ -7,6 +7,9 @@ def home(request):
 def login(request):
     return render(request, 'login.html')
 
+def privacy_policy(request):
+    return render(request, 'privacy_policy.html')
+
 def disclamer(request):
     return render(request, 'disclamer.html')
 def login_sub(request):
